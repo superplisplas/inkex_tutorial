@@ -19,11 +19,11 @@ class SwapColors(inkex.EffectExtension):
             #Select first node of selection
             firstNode = self.svg.selection[0]
             #Select rest nodes of selection
-            restNodes = self.svg.selection[1:]
+            restNodes = list(self.svg.selection)[1:]
             #Swap colors. Set color from first node
-            self.swap_colors(firstNode, restNode)
+            self.swap_colors(firstNode, restNodes)
 
-    def swap_colors (pivotNode, nodes):
+    def swap_colors (self, pivotNode, nodes):
         if pivotNode is not None and len(nodes) > 0:
             color = self.getFillColor(pivotNode)
             if color is not None:
