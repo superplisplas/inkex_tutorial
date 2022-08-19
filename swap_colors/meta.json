@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Swap Colors",
+    "id": "superplisplas.inkex.swap_colors",
+    "path": "swap_colors",
+    "original_name": "Swap Colors",
+    "original_id": "superplisplas.inkex.swap_colors",
+    "license": "GNU GPL v3",
+    "license_url": "https://github.com/superplisplas/inkex_tutorial/blob/main/LICENSE",
+    "comment": "Written by Super Plis Plas",
+    "source_url": "https://github.com/superplisplas/inkex_tutorial/tree/main/swap_colors",
+    "fork_url": null,
+    "documentation_url": "https://github.com/superplisplas/inkex_tutorial",
+    "inkscape_gallery_url": "https://inkscape.org/de/~SuperPlisPlas/%E2%98%85swap_colors",
+    "main_authors": [
+      "github.com/superplisplas"
+    ]
+  }
+]
